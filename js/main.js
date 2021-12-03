@@ -11,20 +11,18 @@ console.log('Sample JavaScript #2 HW #16');
  * age – любой возраст, число
  */
 var userObj = {
+  age: 30,
   firstName: 'Andrii',
   lastName: 'Tyrmorezov',
-  age: 30 ,
   fullName() {
-    return '${userObj.firstName} ${userObj.lastName}';
-  } 
+   return `${userObj.firstName} ${userObj.lastName}`;
+    } 
   };
   console.log(userObj);
-    
 
-
-
-
-/*
+  
+  
+  /*
  * #2
  *
  * Для объекта из п.1 создайте метод fullName, который будет возвращать полное имя,
@@ -108,25 +106,25 @@ function weekFn(cond){
   let str = '';
   switch(cond){
     case 1:
-      str = 'Monday';
+      str = 'Понедельник';
       break;
       case 2:
-        str = 'Tuesday';
+        str = 'Вторник';
         break;
         case 3:
-          str = 'Wednesday';
+          str = 'Среда';
           break;
           case 4:
-            str = 'Thursday';
+            str = 'Четверг';
             break;
             case 5:
-            str= 'Friday';
+            str= 'Пятница';
             break;
             case 6:
-str = 'Saturday';
+str = 'Суббота';
 break;
 case 7:
-  str = 'Sunday'
+  str = 'Воскресенье'
   break;
   default: 
   str = null;
